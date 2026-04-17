@@ -20,6 +20,16 @@ This repository contains a robust biometric identification system designed to re
 - **Deep Metric Learning**: Implementation of ArcFace (Additive Angular Margin Loss) for superior feature discrimination.
 - **Evaluation Suite**: Integrated tools for Verification (1:1), Identification (1:N), and t-SNE embedding visualization.
 
+<img width="461" height="671" alt="Model Architecture drawio" src="https://github.com/user-attachments/assets/428a817e-e79d-4b3a-bb4b-f0e14cf8a266" />
+---
+
+## ML Pipeline
+
+Machine learning pipeline is realy importatnt for this kind of project for track down smooth process
+
+<img width="683" height="142" alt="Pipeline PFR" src="https://github.com/user-attachments/assets/bc160a8c-94e8-456b-b7f8-73e5e63a0d18" />
+
+
 ---
 
 ## 🏗️ System Architecture
@@ -52,8 +62,6 @@ To ensure that embeddings of the same person are close together and different pe
     - `ColorJitter` & `GaussianBlur` (illumination/blur invariance)
     - `RandomFaceOcclusion` (structured masks/blocks)
 
-
- <img width="461" height="671" alt="Model Architecture drawio" src="https://github.com/user-attachments/assets/428a817e-e79d-4b3a-bb4b-f0e14cf8a266" />
  
 
 ### 3. Evaluation & Testing
